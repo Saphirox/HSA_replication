@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/HSA_replication.iml" filepath="$PROJECT_DIR$/.idea/HSA_replication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sqlisolation/.idea/sqlisolation.iml" filepath="$PROJECT_DIR$/../sqlisolation/.idea/sqlisolation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sqlpopulator/.idea/sqlpopulator.iml" filepath="$PROJECT_DIR$/../sqlpopulator/.idea/sqlpopulator.iml" />
+    </modules>
+  </component>
+</project>

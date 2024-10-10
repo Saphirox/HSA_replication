@@ -1,0 +1,5 @@
+CREATE DATABASE manyusers;
+USE manyusers;
+GRANT REPLICATION SLAVE ON *.* TO 'slave1'@'%' IDENTIFIED BY 'password';
+GRANT REPLICATION SLAVE ON *.* TO 'slave2'@'%' IDENTIFIED BY 'password';
+FLUSH PRIVILEGES;
