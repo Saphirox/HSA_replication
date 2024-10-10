@@ -17,3 +17,22 @@ Case 2. When one of replics down
 And spin up a replic again.
 As we can see second replic caught up data
 ![img_3.png](img_3.png)
+
+Case 3 Drop middle and last column
+
+Stopped database. Executed command
+```sql
+ALTER TABLE users
+DROP COLUMN birth_date;
+
+ALTER TABLE users
+DROP COLUMN gender;
+```
+
+Tried to resume database. The database is keeping crushing
+![img_4.png](img_4.png)
+
+
+
+
+
